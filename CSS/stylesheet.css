@@ -1,0 +1,147 @@
+/* Reset default styles and set base font */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styling with dark background */
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Navigation bar with dark gray background */
+nav {
+    background-color: #555555;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Navigation links styling */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5rem;
+}
+
+/* Grid layout for property listings */
+.featured-properties {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+/* Individual property card design */
+.property-card {
+    border: 1px solid #ddd;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+/* Property image styling */
+.property-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+/* Fixed footer at bottom of page */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* About section container */
+.about-section {
+    padding: 2rem;
+    background-color: none;
+    text-align: center;
+}
+
+/* About section headings */
+.about-section h2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* About section paragraph text */
+.about-section p {
+    max-width: 600px;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+/* About section list styling */
+.about-list {
+    list-style-type: lower-roman;
+    font-size: 1.2rem;
+    list-style-position: inside;
+    text-align: center;
+    padding: 0;
+}
+
+/* Welcome section styling */
+.welcome-section {
+    padding: 2rem;
+    background-color: none;
+    text-align: center;
+}
+
+/* Welcome section headings */
+.welcome-section h2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Welcome section paragraph text */
+.welcome-section p {
+    max-width: 600px;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+/* Contact section container */
+.contact-section {
+    padding: 2rem;
+    background-color: none;
+    text-align: center;
+}
+
+/* Contact information box */
+.contact-info {
+    border: #ddd 1px solid;
+    padding: 1rem;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Contact section headings */
+.contact-section h2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Contact section paragraph text */
+.contact-section p {
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+}
